@@ -1,0 +1,12 @@
+[package]
+name = "zhua"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+scraper = "0.23.1"
+thiserror = "2.0.12"
+zhua-derive = { version = "0.1.0", path = "../zhua-derive" }
+
+[dev-dependencies]
+assert_matches2 = "0.1.2"
